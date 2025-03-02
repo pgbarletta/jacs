@@ -1,0 +1,7 @@
+source leaprc.gaff2
+loadamberparams binder_1h1s.frcmod
+LIG = loadmol2 binder_1h1s.resp.mol2
+set LIG.1 name "LIG"
+saveOff LIG /home/pb777/reaf_check/jacs/cdk2/data/preparation/1h1s/binder_1h1s.lib
+savePDB LIG /home/pb777/reaf_check/jacs/cdk2/data/preparation/1h1s/parametrized_binder_1h1s.pdb
+quit
