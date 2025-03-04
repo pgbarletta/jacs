@@ -1,0 +1,19 @@
+2025-02-11 12:26:51 - INFO - 0.3.0 Starting the LazyLigand recipe at /home/pb777/reaf_check/jacs/cdk2/data/preparation/22
+2025-02-11 12:26:51 - INFO - 0.3.0 Executing Initialize
+2025-02-11 12:26:51 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.pdb -fi pdb -o /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.antechamber.mol2 -fo mol2 -c bcc -nc 0.0 -pf y -at gaff2 -gn %nproc=1 -gm %mem=512MB
+2025-02-11 12:27:32 - INFO - 0.3.0 Executing Normalize1
+2025-02-11 12:27:32 - INFO - 0.3.0 Normalizing charges
+2025-02-11 12:27:32 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.antechamber_tmp_norm.mol2 -fi mol2 -o /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.antechamber.mol2 -fo mol2 -pf y -at gaff2 -gn %nproc=1 -gm %mem=512MB
+2025-02-11 12:27:32 - INFO - 0.3.0 Executing Minimize
+2025-02-11 12:27:32 - INFO - 0.3.0 Gaussian calculation already complete
+2025-02-11 12:27:32 - INFO - 0.3.0 Executing LazyResp
+2025-02-11 12:27:32 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.log -fi gout -o /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.resp.mol2 -fo mol2 -gv 0 -c resp -nc 0.0 -at gaff2 -gn %nproc=1 -gm %mem=512MB -rn LIG
+2025-02-11 12:27:33 - INFO - 0.3.0 Executing Normalize2
+2025-02-11 12:27:33 - INFO - 0.3.0 Charges are already normalized
+2025-02-11 12:27:33 - INFO - 0.3.0 Executing UpdateNames
+2025-02-11 12:27:33 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.resp.types.mol2 -fi mol2 -o /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.resp.mol2 -fo mol2 -pf y -at gaff2 -gn %nproc=1 -gm %mem=512MB
+2025-02-11 12:27:33 - INFO - 0.3.0 Executing ParmChk
+2025-02-11 12:27:33 - INFO - 0.3.0 	parmchk2 -i /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.resp.mol2 -f mol2 -o /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/binder_22.frcmod -s 2
+2025-02-11 12:27:33 - INFO - 0.3.0 Executing Leap
+2025-02-11 12:27:33 - INFO - 0.3.0 	tleap -f /home/pb777/reaf_check/jacs/cdk2/data/preparation/22/tleap.param.in
+2025-02-11 12:27:33 - INFO - 0.3.0 Done with the LazyLigand recipe

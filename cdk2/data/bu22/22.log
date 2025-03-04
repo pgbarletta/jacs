@@ -1,0 +1,8 @@
+2025-01-31 09:55:58 - INFO - 0.3.0 Starting the LazyLigand recipe at /home/pb777/reaf_check/jacs/cdk2/data/22
+2025-01-31 09:55:58 - INFO - 0.3.0 Executing Initialize
+2025-01-31 09:55:58 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/22/binder_22.pdb -fi pdb -o /home/pb777/reaf_check/jacs/cdk2/data/22/binder_22.antechamber.mol2 -fo mol2 -c bcc -nc 0.0 -pf y -at gaff2 -gn %nproc=1 -gm %mem=512MB
+2025-01-31 09:56:25 - INFO - 0.3.0 Executing Normalize1
+2025-01-31 09:56:25 - INFO - 0.3.0 Normalizing charges
+2025-01-31 09:56:25 - INFO - 0.3.0 	antechamber -i /home/pb777/reaf_check/jacs/cdk2/data/22/binder_22.antechamber_tmp_norm.mol2 -fi mol2 -o /home/pb777/reaf_check/jacs/cdk2/data/22/binder_22.antechamber.mol2 -fo mol2 -pf y -at gaff2 -gn %nproc=1 -gm %mem=512MB
+2025-01-31 09:56:25 - INFO - 0.3.0 Executing Minimize
+2025-01-31 09:56:25 - INFO - 0.3.0 	bash temp_gaussian_sub.sh
