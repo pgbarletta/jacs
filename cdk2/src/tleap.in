@@ -1,0 +1,7 @@
+source oldff/leaprc.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+
+tgt = loadpdb TARGET.pdb
+saveamberparm mol COMPLEX.prmtop COMPLEX.rst7
+quit
