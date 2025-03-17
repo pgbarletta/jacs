@@ -1,0 +1,3298 @@
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~17-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~17-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./17_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./17_0.lib
+Loading PDB file: ./1h1q~17-1_aq.pdb
+  total atoms in file: 8060
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L00	1
+	L01	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~17-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~17-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./17_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./17_0.lib
+Loading PDB file: ./1h1q~17-2_aq.pdb
+  total atoms in file: 8060
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L00	1
+	L01	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1h1r-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1h1r-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1h1r_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1r_0.lib
+Loading PDB file: ./1h1q~1h1r-1_aq.pdb
+  total atoms in file: 8060
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L02	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1h1r-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1h1r-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1h1r_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1r_0.lib
+Loading PDB file: ./1h1q~1h1r-2_aq.pdb
+  total atoms in file: 8060
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L02	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1h1s-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1h1s-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading PDB file: ./1h1q~1h1s-1_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L03	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1h1s-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1h1s-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading PDB file: ./1h1q~1h1s-2_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L03	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oi9-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oi9-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oi9_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oi9_0.lib
+Loading PDB file: ./1h1q~1oi9-1_aq.pdb
+  total atoms in file: 8061
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L04	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oi9-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oi9-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oi9_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oi9_0.lib
+Loading PDB file: ./1h1q~1oi9-2_aq.pdb
+  total atoms in file: 8061
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L04	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oiu-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oiu-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oiu_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oiu_0.lib
+Loading PDB file: ./1h1q~1oiu-1_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L05	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oiu-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oiu-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oiu_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oiu_0.lib
+Loading PDB file: ./1h1q~1oiu-2_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L05	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oiy-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oiy-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oiy_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oiy_0.lib
+Loading PDB file: ./1h1q~1oiy-1_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 28 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L06	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~1oiy-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~1oiy-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1oiy_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oiy_0.lib
+Loading PDB file: ./1h1q~1oiy-2_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 28 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L06	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~20-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~20-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./20_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./20_0.lib
+Loading PDB file: ./1h1q~20-1_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L07	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~20-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~20-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./20_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./20_0.lib
+Loading PDB file: ./1h1q~20-2_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L07	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~21-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~21-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./21_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./21_0.lib
+Loading PDB file: ./1h1q~21-1_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L08	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~21-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~21-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./21_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./21_0.lib
+Loading PDB file: ./1h1q~21-2_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L08	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~22-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~22-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./22_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./22_0.lib
+Loading PDB file: ./1h1q~22-1_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L09	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~22-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~22-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./22_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./22_0.lib
+Loading PDB file: ./1h1q~22-2_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L09	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~26-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~26-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./26_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./26_0.lib
+Loading PDB file: ./1h1q~26-1_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L10	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~26-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~26-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./26_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./26_0.lib
+Loading PDB file: ./1h1q~26-2_aq.pdb
+  total atoms in file: 8064
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L10	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~30-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~30-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./30_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./30_0.lib
+Loading PDB file: ./1h1q~30-1_aq.pdb
+  total atoms in file: 8066
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L13	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~30-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~30-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./30_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./30_0.lib
+Loading PDB file: ./1h1q~30-2_aq.pdb
+  total atoms in file: 8066
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L13	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~31-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~31-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./31_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./31_0.lib
+Loading PDB file: ./1h1q~31-1_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L14	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1q~31-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1q~31-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./31_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./31_0.lib
+Loading PDB file: ./1h1q~31-2_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L14	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~28-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~28-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./28_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./28_0.lib
+Loading PDB file: ./1h1s~28-1_aq.pdb
+  total atoms in file: 8073
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L11	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~28-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~28-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./28_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./28_0.lib
+Loading PDB file: ./1h1s~28-2_aq.pdb
+  total atoms in file: 8073
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L11	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~29-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~29-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./29_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./29_0.lib
+Loading PDB file: ./1h1s~29-1_aq.pdb
+  total atoms in file: 8076
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L12	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~29-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~29-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./29_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./29_0.lib
+Loading PDB file: ./1h1s~29-2_aq.pdb
+  total atoms in file: 8076
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L12	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~32-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~32-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./32_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./32_0.lib
+Loading PDB file: ./1h1s~32-1_aq.pdb
+  total atoms in file: 8074
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L15	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1h1s~32-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1h1s~32-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1h1s_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1s_0.lib
+Loading parameters: ./32_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./32_0.lib
+Loading PDB file: ./1h1s~32-2_aq.pdb
+  total atoms in file: 8074
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L03	1
+	L15	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1oi9~26-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1oi9~26-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1oi9_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oi9_0.lib
+Loading parameters: ./26_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./26_0.lib
+Loading PDB file: ./1oi9~26-1_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L04	1
+	L10	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_1oi9~26-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_1oi9~26-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./1oi9_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1oi9_0.lib
+Loading parameters: ./26_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./26_0.lib
+Loading PDB file: ./1oi9~26-2_aq.pdb
+  total atoms in file: 8065
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L04	1
+	L10	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_21~32-1_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_21~32-1_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./21_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./21_0.lib
+Loading parameters: ./32_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./32_0.lib
+Loading PDB file: ./21~32-1_aq.pdb
+  total atoms in file: 8073
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L08	1
+	L15	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source fix_box_21~32-2_aq_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./fix_box_21~32-2_aq_tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: ./21_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./21_0.lib
+Loading parameters: ./32_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./32_0.lib
+Loading PDB file: ./21~32-2_aq.pdb
+  total atoms in file: 8073
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 26 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L08	1
+	L15	1
+	WAT	2652
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.

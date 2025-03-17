@@ -1,0 +1,4556 @@
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/prep to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm to search path.
+-I: Adding /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./tleap.in
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/amino12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminoct12.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/aminont12.lib
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/phosaa14SB.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/pb777/devel/git/Programs/install_earlystop/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/atomic_ions.lib
+Loading library: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/lib/solvents.lib
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/pb777/devel/git/Programs/install_earlystop/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: ./1h1q_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1q_0.lib
+Loading parameters: ./1h1r_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./1h1r_0.lib
+Loading PDB file: ./merged1_1h1q~1h1r.pdb using sequence 
+ (starting new molecule for chain A)
+ (starting new molecule for chain B)
+  matching pdb residues -> sequence template
+	res	pdb	template
+	1	L01	L01
+	2	L02	L02
+	3	ACE	ACE
+	4	SER	SER
+	5	MET	MET
+	6	GLU	GLU
+	7	ASN	ASN
+	8	PHE	PHE
+	9	GLN	GLN
+	10	LYS	LYS
+	11	VAL	VAL
+	12	GLU	GLU
+	13	LYS	LYS
+	14	ILE	ILE
+	15	GLY	GLY
+	16	GLU	GLU
+	17	GLY	GLY
+	18	THR	THR
+	19	TYR	TYR
+	20	GLY	GLY
+	21	VAL	VAL
+	22	VAL	VAL
+	23	TYR	TYR
+	24	LYS	LYS
+	25	ALA	ALA
+	26	ARG	ARG
+	27	ASN	ASN
+	28	LYS	LYS
+	29	LEU	LEU
+	30	THR	THR
+	31	GLY	GLY
+	32	GLU	GLU
+	33	VAL	VAL
+	34	VAL	VAL
+	35	ALA	ALA
+	36	LEU	LEU
+	37	LYS	LYS
+	38	LYS	LYS
+	39	ILE	ILE
+	40	ARG	ARG
+	41	LEU	LEU
+	42	ASP	ASP
+	43	THR	THR
+	44	GLU	GLU
+	45	THR	THR
+	46	GLU	GLU
+	47	GLY	GLY
+	48	VAL	VAL
+	49	PRO	PRO
+	50	SER	SER
+	51	THR	THR
+	52	ALA	ALA
+	53	ILE	ILE
+	54	ARG	ARG
+	55	GLU	GLU
+	56	ILE	ILE
+	57	SER	SER
+	58	LEU	LEU
+	59	LEU	LEU
+	60	LYS	LYS
+	61	GLU	GLU
+	62	LEU	LEU
+	63	ASN	ASN
+	64*	HIS	HIE
+	65	PRO	PRO
+	66	ASN	ASN
+	67	ILE	ILE
+	68	VAL	VAL
+	69	LYS	LYS
+	70	LEU	LEU
+	71	LEU	LEU
+	72	ASP	ASP
+	73	VAL	VAL
+	74	ILE	ILE
+	75*	HIS	HIE
+	76	THR	THR
+	77	GLU	GLU
+	78	ASN	ASN
+	79	LYS	LYS
+	80	LEU	LEU
+	81	TYR	TYR
+	82	LEU	LEU
+	83	VAL	VAL
+	84	PHE	PHE
+	85	GLU	GLU
+	86	PHE	PHE
+	87	LEU	LEU
+	88*	HIS	HIE
+	89	GLN	GLN
+	90	ASP	ASP
+	91	LEU	LEU
+	92	LYS	LYS
+	93	LYS	LYS
+	94	PHE	PHE
+	95	MET	MET
+	96	ASP	ASP
+	97	ALA	ALA
+	98	SER	SER
+	99	ALA	ALA
+	100	LEU	LEU
+	101	THR	THR
+	102	GLY	GLY
+	103	ILE	ILE
+	104	PRO	PRO
+	105	LEU	LEU
+	106	PRO	PRO
+	107	LEU	LEU
+	108	ILE	ILE
+	109	LYS	LYS
+	110	SER	SER
+	111	TYR	TYR
+	112	LEU	LEU
+	113	PHE	PHE
+	114	GLN	GLN
+	115	LEU	LEU
+	116	LEU	LEU
+	117	GLN	GLN
+	118	GLY	GLY
+	119	LEU	LEU
+	120	ALA	ALA
+	121	PHE	PHE
+	122	CYS	CYS
+	123*	HIS	HIE
+	124	SER	SER
+	125*	HIS	HIE
+	126	ARG	ARG
+	127	VAL	VAL
+	128	LEU	LEU
+	129*	HIS	HIE
+	130	ARG	ARG
+	131	ASP	ASP
+	132	LEU	LEU
+	133	LYS	LYS
+	134	PRO	PRO
+	135	GLN	GLN
+	136	ASN	ASN
+	137	LEU	LEU
+	138	LEU	LEU
+	139	ILE	ILE
+	140	ASN	ASN
+	141	THR	THR
+	142	GLU	GLU
+	143	GLY	GLY
+	144	ALA	ALA
+	145	ILE	ILE
+	146	LYS	LYS
+	147	LEU	LEU
+	148	ALA	ALA
+	149	ASP	ASP
+	150	PHE	PHE
+	151	GLY	GLY
+	152	LEU	LEU
+	153	ALA	ALA
+	154	ARG	ARG
+	155	ALA	ALA
+	156	PHE	PHE
+	157	GLY	GLY
+	158	VAL	VAL
+	159	PRO	PRO
+	160	VAL	VAL
+	161	ARG	ARG
+	162	THR	THR
+	163	TYR	TYR
+	164	THR	THR
+	165*	HIS	HIE
+	166	GLU	GLU
+	167	VAL	VAL
+	168	VAL	VAL
+	169	THR	THR
+	170	LEU	LEU
+	171	TRP	TRP
+	172	TYR	TYR
+	173	ARG	ARG
+	174	ALA	ALA
+	175	PRO	PRO
+	176	GLU	GLU
+	177	ILE	ILE
+	178	LEU	LEU
+	179	LEU	LEU
+	180	GLY	GLY
+	181	CYS	CYS
+	182	LYS	LYS
+	183	TYR	TYR
+	184	TYR	TYR
+	185	SER	SER
+	186	THR	THR
+	187	ALA	ALA
+	188	VAL	VAL
+	189	ASP	ASP
+	190	ILE	ILE
+	191	TRP	TRP
+	192	SER	SER
+	193	LEU	LEU
+	194	GLY	GLY
+	195	CYS	CYS
+	196	ILE	ILE
+	197	PHE	PHE
+	198	ALA	ALA
+	199	GLU	GLU
+	200	MET	MET
+	201	VAL	VAL
+	202	THR	THR
+	203	ARG	ARG
+	204	ARG	ARG
+	205	ALA	ALA
+	206	LEU	LEU
+	207	PHE	PHE
+	208	PRO	PRO
+	209	GLY	GLY
+	210	ASP	ASP
+	211	SER	SER
+	212	GLU	GLU
+	213	ILE	ILE
+	214	ASP	ASP
+	215	GLN	GLN
+	216	LEU	LEU
+	217	PHE	PHE
+	218	ARG	ARG
+	219	ILE	ILE
+	220	PHE	PHE
+	221	ARG	ARG
+	222	THR	THR
+	223	LEU	LEU
+	224	GLY	GLY
+	225	THR	THR
+	226	PRO	PRO
+	227	ASP	ASP
+	228	GLU	GLU
+	229	VAL	VAL
+	230	VAL	VAL
+	231	TRP	TRP
+	232	PRO	PRO
+	233	GLY	GLY
+	234	VAL	VAL
+	235	THR	THR
+	236	SER	SER
+	237	MET	MET
+	238	PRO	PRO
+	239	ASP	ASP
+	240	TYR	TYR
+	241	LYS	LYS
+	242	PRO	PRO
+	243	SER	SER
+	244	PHE	PHE
+	245	PRO	PRO
+	246	LYS	LYS
+	247	TRP	TRP
+	248	ALA	ALA
+	249	ARG	ARG
+	250	GLN	GLN
+	251	ASP	ASP
+	252	PHE	PHE
+	253	SER	SER
+	254	LYS	LYS
+	255	VAL	VAL
+	256	VAL	VAL
+	257	PRO	PRO
+	258	PRO	PRO
+	259	LEU	LEU
+	260	ASP	ASP
+	261	GLU	GLU
+	262	ASP	ASP
+	263	GLY	GLY
+	264	ARG	ARG
+	265	SER	SER
+	266	LEU	LEU
+	267	LEU	LEU
+	268	SER	SER
+	269	GLN	GLN
+	270	MET	MET
+	271	LEU	LEU
+	272*	HIS	HIE
+	273	TYR	TYR
+	274	ASP	ASP
+	275	PRO	PRO
+	276	ASN	ASN
+	277	LYS	LYS
+	278	ARG	ARG
+	279	ILE	ILE
+	280	SER	SER
+	281	ALA	ALA
+	282	LYS	LYS
+	283	ALA	ALA
+	284	ALA	ALA
+	285	LEU	LEU
+	286	ALA	ALA
+	287*	HIS	HIE
+	288	PRO	PRO
+	289	PHE	PHE
+	290	PHE	PHE
+	291	GLN	GLN
+	292	ASP	ASP
+	293	VAL	VAL
+	294	THR	THR
+	295	LYS	LYS
+	296	PRO	PRO
+	297	VAL	VAL
+	298	PRO	PRO
+	299*	HIS	HIE
+	300	LEU	LEU
+	301	NME	NME
+	302	ACE	ACE
+	303	VAL	VAL
+	304	PRO	PRO
+	305	ASP	ASP
+	306	TYR	TYR
+	307*	HIS	HIE
+	308	GLU	GLU
+	309	ASP	ASP
+	310	ILE	ILE
+	311*	HIS	HIE
+	312	THR	THR
+	313	TYR	TYR
+	314	LEU	LEU
+	315	ARG	ARG
+	316	GLU	GLU
+	317	MET	MET
+	318	GLU	GLU
+	319	VAL	VAL
+	320	LYS	LYS
+	321	CYS	CYS
+	322	LYS	LYS
+	323	PRO	PRO
+	324	LYS	LYS
+	325	VAL	VAL
+	326	GLY	GLY
+	327	TYR	TYR
+	328	MET	MET
+	329	LYS	LYS
+	330	LYS	LYS
+	331	GLN	GLN
+	332	PRO	PRO
+	333	ASP	ASP
+	334	ILE	ILE
+	335	THR	THR
+	336	ASN	ASN
+	337	SER	SER
+	338	MET	MET
+	339	ARG	ARG
+	340	ALA	ALA
+	341	ILE	ILE
+	342	LEU	LEU
+	343	VAL	VAL
+	344	ASP	ASP
+	345	TRP	TRP
+	346	LEU	LEU
+	347	VAL	VAL
+	348	GLU	GLU
+	349	VAL	VAL
+	350	GLY	GLY
+	351	GLU	GLU
+	352	GLU	GLU
+	353	TYR	TYR
+	354	LYS	LYS
+	355	LEU	LEU
+	356	GLN	GLN
+	357	ASN	ASN
+	358	GLU	GLU
+	359	THR	THR
+	360	LEU	LEU
+	361*	HIS	HIE
+	362	LEU	LEU
+	363	ALA	ALA
+	364	VAL	VAL
+	365	ASN	ASN
+	366	TYR	TYR
+	367	ILE	ILE
+	368	ASP	ASP
+	369	ARG	ARG
+	370	PHE	PHE
+	371	LEU	LEU
+	372	SER	SER
+	373	SER	SER
+	374	MET	MET
+	375	SER	SER
+	376	VAL	VAL
+	377	LEU	LEU
+	378	ARG	ARG
+	379	GLY	GLY
+	380	LYS	LYS
+	381	LEU	LEU
+	382	GLN	GLN
+	383	LEU	LEU
+	384	VAL	VAL
+	385	GLY	GLY
+	386	THR	THR
+	387	ALA	ALA
+	388	ALA	ALA
+	389	MET	MET
+	390	LEU	LEU
+	391	LEU	LEU
+	392	ALA	ALA
+	393	SER	SER
+	394	LYS	LYS
+	395	PHE	PHE
+	396	GLU	GLU
+	397	GLU	GLU
+	398	ILE	ILE
+	399	TYR	TYR
+	400	PRO	PRO
+	401	PRO	PRO
+	402	GLU	GLU
+	403	VAL	VAL
+	404	ALA	ALA
+	405	GLU	GLU
+	406	PHE	PHE
+	407	VAL	VAL
+	408	TYR	TYR
+	409	ILE	ILE
+	410	THR	THR
+	411	ASP	ASP
+	412	ASP	ASP
+	413	THR	THR
+	414	TYR	TYR
+	415	THR	THR
+	416	LYS	LYS
+	417	LYS	LYS
+	418	GLN	GLN
+	419	VAL	VAL
+	420	LEU	LEU
+	421	ARG	ARG
+	422	MET	MET
+	423	GLU	GLU
+	424*	HIS	HIE
+	425	LEU	LEU
+	426	VAL	VAL
+	427	LEU	LEU
+	428	LYS	LYS
+	429	VAL	VAL
+	430	LEU	LEU
+	431	THR	THR
+	432	PHE	PHE
+	433	ASP	ASP
+	434	LEU	LEU
+	435	ALA	ALA
+	436	ALA	ALA
+	437	PRO	PRO
+	438	THR	THR
+	439	VAL	VAL
+	440	ASN	ASN
+	441	GLN	GLN
+	442	PHE	PHE
+	443	LEU	LEU
+	444	THR	THR
+	445	GLN	GLN
+	446	TYR	TYR
+	447	PHE	PHE
+	448	LEU	LEU
+	449*	HIS	HIE
+	450	GLN	GLN
+	451	GLN	GLN
+	452	PRO	PRO
+	453	ALA	ALA
+	454	ASN	ASN
+	455	CYS	CYS
+	456	LYS	LYS
+	457	VAL	VAL
+	458	GLU	GLU
+	459	SER	SER
+	460	LEU	LEU
+	461	ALA	ALA
+	462	MET	MET
+	463	PHE	PHE
+	464	LEU	LEU
+	465	GLY	GLY
+	466	GLU	GLU
+	467	LEU	LEU
+	468	SER	SER
+	469	LEU	LEU
+	470	ILE	ILE
+	471	ASP	ASP
+	472	ALA	ALA
+	473	ASP	ASP
+	474	PRO	PRO
+	475	TYR	TYR
+	476	LEU	LEU
+	477	LYS	LYS
+	478	TYR	TYR
+	479	LEU	LEU
+	480	PRO	PRO
+	481	SER	SER
+	482	VAL	VAL
+	483	ILE	ILE
+	484	ALA	ALA
+	485	GLY	GLY
+	486	ALA	ALA
+	487	ALA	ALA
+	488	PHE	PHE
+	489*	HIS	HIE
+	490	LEU	LEU
+	491	ALA	ALA
+	492	LEU	LEU
+	493	TYR	TYR
+	494	THR	THR
+	495	VAL	VAL
+	496	THR	THR
+	497	GLY	GLY
+	498	GLN	GLN
+	499	SER	SER
+	500	TRP	TRP
+	501	PRO	PRO
+	502	GLU	GLU
+	503	SER	SER
+	504	LEU	LEU
+	505	ILE	ILE
+	506	ARG	ARG
+	507	LYS	LYS
+	508	THR	THR
+	509	GLY	GLY
+	510	TYR	TYR
+	511	THR	THR
+	512	LEU	LEU
+	513	GLU	GLU
+	514	SER	SER
+	515	LEU	LEU
+	516	LYS	LYS
+	517	PRO	PRO
+	518	CYS	CYS
+	519	LEU	LEU
+	520	MET	MET
+	521	ASP	ASP
+	522	LEU	LEU
+	523*	HIS	HIE
+	524	GLN	GLN
+	525	THR	THR
+	526	TYR	TYR
+	527	LEU	LEU
+	528	LYS	LYS
+	529	ALA	ALA
+	530	PRO	PRO
+	531	GLN	GLN
+	532*	HIS	HIE
+	533	ALA	ALA
+	534	GLN	GLN
+	535	GLN	GLN
+	536	SER	SER
+	537	ILE	ILE
+	538	ARG	ARG
+	539	GLU	GLU
+	540	LYS	LYS
+	541	TYR	TYR
+	542	LYS	LYS
+	543	ASN	ASN
+	544	SER	SER
+	545	LYS	LYS
+	546	TYR	TYR
+	547*	HIS	HIE
+	548	GLY	GLY
+	549	VAL	VAL
+	550	SER	SER
+	551	LEU	LEU
+	552	LEU	LEU
+	553	ASN	ASN
+	554	PRO	PRO
+	555	PRO	PRO
+	556	GLU	GLU
+	557	THR	THR
+	558	LEU	LEU
+	559	ASN	ASN
+	560	LEU	LEU
+	561	NME	NME
+  * = possible mismatch; total 19
+      (i.e. pdb name not a substring of template)
+
+  Added missing heavy atom: .R<L02 2>.A<Cl1 39>
+  total atoms in file: 4564
+  Leap added 4554 missing atoms according to residue templates:
+       1 Heavy
+       4553 H / lone pairs
+Scaling up box by a factor of 1.340698 to meet diagonal cut criterion
+  Solute vdw bounding box:              84.656 50.541 69.043
+  Total bounding box for atom centers:  111.469 111.469 111.469
+      (box expansion for 'iso' is  67.6%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 711334.645 A^3 (oct)
+  Total mass 390686.312 amu,  Density 0.912 g/cc
+  Added 18126 residues.
+ 0.000100 0 1 0
+0 Na+ ion required to neutralize.
+Adding 0 counter ions to "x" using 1A grid
+
+/home/pb777/devel/git/Programs/install_earlystop/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -0.0001; ion1 charge = -1;
+     can't neutralize.
+Adding 49 counter ions to "x" using 1A grid
+Grid extends from solute vdw + 5.04  to  11.04
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Na+ in x at (-3.02, 6.66, -33.36).
+(Replacing solvent molecule)
+Placed Na+ in x at (9.20, -0.51, -26.48).
+(Replacing solvent molecule)
+Placed Na+ in x at (9.63, -19.87, -13.14).
+(Replacing solvent molecule)
+Placed Na+ in x at (-5.86, -3.73, -31.93).
+(Replacing solvent molecule)
+Placed Na+ in x at (-8.59, -21.21, 33.69).
+(Replacing solvent molecule)
+Placed Na+ in x at (7.14, 16.28, -34.95).
+(Replacing solvent molecule)
+Placed Na+ in x at (16.88, -0.34, -16.54).
+(Replacing solvent molecule)
+Placed Na+ in x at (-10.31, 7.17, -33.95).
+(Replacing solvent molecule)
+Placed Na+ in x at (-40.56, -7.22, -20.44).
+(Replacing solvent molecule)
+Placed Na+ in x at (-0.77, -19.94, 35.05).
+(Replacing solvent molecule)
+Placed Na+ in x at (8.25, 25.54, 6.02).
+(Replacing solvent molecule)
+Placed Na+ in x at (-11.59, -33.33, -2.92).
+(Replacing solvent molecule)
+Placed Na+ in x at (28.10, -18.11, 2.55).
+(Replacing solvent molecule)
+Placed Na+ in x at (-37.01, -4.60, 8.68).
+(Replacing solvent molecule)
+Placed Na+ in x at (25.27, 11.48, -14.20).
+(Replacing solvent molecule)
+Placed Na+ in x at (10.44, 8.80, 32.47).
+(Replacing solvent molecule)
+Placed Na+ in x at (-45.13, 2.85, -25.81).
+(Replacing solvent molecule)
+Placed Na+ in x at (-8.87, -5.88, 29.22).
+(Replacing solvent molecule)
+Placed Na+ in x at (5.38, 7.44, -38.52).
+(Replacing solvent molecule)
+Placed Na+ in x at (10.60, -6.68, -21.70).
+(Replacing solvent molecule)
+Placed Na+ in x at (-34.78, -20.45, -5.45).
+(Replacing solvent molecule)
+Placed Na+ in x at (-16.89, 7.14, 13.79).
+(Replacing solvent molecule)
+Placed Na+ in x at (-5.46, -30.88, 27.86).
+(Replacing solvent molecule)
+Placed Na+ in x at (-41.64, 12.66, 0.63).
+(Replacing solvent molecule)
+Placed Na+ in x at (27.71, -14.87, 19.65).
+(Replacing solvent molecule)
+Placed Na+ in x at (12.95, 35.92, 9.44).
+(Replacing solvent molecule)
+Placed Na+ in x at (-19.69, 7.31, -34.36).
+(Replacing solvent molecule)
+Placed Na+ in x at (-3.76, -39.62, 10.19).
+(Replacing solvent molecule)
+Placed Na+ in x at (-17.37, -15.78, 12.00).
+(Replacing solvent molecule)
+Placed Na+ in x at (25.88, -17.03, 42.65).
+(Replacing solvent molecule)
+Placed Na+ in x at (13.08, 25.12, 25.40).
+(Replacing solvent molecule)
+Placed Na+ in x at (-32.99, -9.58, -31.76).
+(Replacing solvent molecule)
+Placed Na+ in x at (15.31, 7.96, -30.32).
+(Replacing solvent molecule)
+Placed Na+ in x at (-25.12, 17.26, -21.94).
+(Replacing solvent molecule)
+Placed Na+ in x at (16.21, -43.46, -9.73).
+(No solvent overlap)
+Placed Na+ in x at (-51.78, -3.03, -10.02).
+(Replacing solvent molecule)
+Placed Na+ in x at (26.63, 3.03, 38.32).
+(Replacing solvent molecule)
+Placed Na+ in x at (-12.13, 39.60, -22.67).
+(Replacing solvent molecule)
+Placed Na+ in x at (0.31, -3.60, 45.58).
+(Replacing solvent molecule)
+Placed Na+ in x at (-2.21, -32.42, -10.64).
+(Replacing solvent molecule)
+Placed Na+ in x at (10.22, -42.52, 29.75).
+(Replacing solvent molecule)
+Placed Na+ in x at (37.52, -10.67, 28.75).
+(Replacing solvent molecule)
+Placed Na+ in x at (23.19, -28.53, 0.95).
+(Replacing solvent molecule)
+Placed Na+ in x at (-33.73, 10.79, -39.69).
+(Replacing solvent molecule)
+Placed Na+ in x at (-15.64, -23.33, -29.81).
+(Replacing solvent molecule)
+Placed Na+ in x at (-13.24, 33.60, -36.32).
+(Replacing solvent molecule)
+Placed Na+ in x at (13.82, 39.19, 22.50).
+(Replacing solvent molecule)
+Placed Na+ in x at (-15.25, -39.84, 9.03).
+(Replacing solvent molecule)
+Placed Na+ in x at (36.03, 8.76, 16.08).
+
+Done adding ions.
+Adding 49 counter ions to "x" using 1A grid
+Grid extends from solute vdw + 9.26  to  15.26
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in x at (33.01, 16.59, 0.52).
+(Replacing solvent molecule)
+Placed Cl- in x at (-2.40, -20.05, -23.04).
+(Replacing solvent molecule)
+Placed Cl- in x at (-9.43, -34.90, 18.34).
+(Replacing solvent molecule)
+Placed Cl- in x at (32.27, -0.33, 13.42).
+(Replacing solvent molecule)
+Placed Cl- in x at (-24.39, 28.21, -1.55).
+(Replacing solvent molecule)
+Placed Cl- in x at (-30.27, 17.12, -32.68).
+(Replacing solvent molecule)
+Placed Cl- in x at (30.54, -5.14, 36.28).
+(Replacing solvent molecule)
+Placed Cl- in x at (22.76, -36.93, -2.23).
+(Replacing solvent molecule)
+Placed Cl- in x at (17.87, 15.20, 30.12).
+(Replacing solvent molecule)
+Placed Cl- in x at (8.86, 33.18, -3.55).
+(Replacing solvent molecule)
+Placed Cl- in x at (-25.12, -16.84, -30.60).
+(Replacing solvent molecule)
+Placed Cl- in x at (-19.57, 34.44, -28.45).
+(Replacing solvent molecule)
+Placed Cl- in x at (18.97, -2.45, -28.11).
+(Replacing solvent molecule)
+Placed Cl- in x at (-21.21, -31.44, 2.88).
+(Replacing solvent molecule)
+Placed Cl- in x at (30.25, -22.34, 12.50).
+(Replacing solvent molecule)
+Placed Cl- in x at (-38.43, 0.87, -33.56).
+(Replacing solvent molecule)
+Placed Cl- in x at (4.80, -32.80, 34.72).
+(Replacing solvent molecule)
+Placed Cl- in x at (21.25, 31.84, 23.84).
+(Replacing solvent molecule)
+Placed Cl- in x at (-1.49, -1.23, -42.19).
+(Replacing solvent molecule)
+Placed Cl- in x at (-7.09, -40.02, -7.78).
+(Replacing solvent molecule)
+Placed Cl- in x at (12.82, 30.31, -21.09).
+(Replacing solvent molecule)
+Placed Cl- in x at (-12.82, 2.52, 23.00).
+(Replacing solvent molecule)
+Placed Cl- in x at (-46.07, -2.45, -1.55).
+(Replacing solvent molecule)
+Placed Cl- in x at (26.63, 26.02, -1.51).
+(Replacing solvent molecule)
+Placed Cl- in x at (1.72, 4.99, 40.46).
+(Replacing solvent molecule)
+Placed Cl- in x at (6.03, -45.52, 19.65).
+(Replacing solvent molecule)
+Placed Cl- in x at (-13.87, 17.03, -38.22).
+(Replacing solvent molecule)
+Placed Cl- in x at (3.31, 34.86, 16.13).
+(Replacing solvent molecule)
+Placed Cl- in x at (-5.82, 35.66, -31.00).
+(Replacing solvent molecule)
+Placed Cl- in x at (12.95, -34.54, -15.18).
+(No solvent overlap)
+Placed Cl- in x at (-51.04, 5.28, -16.95).
+(Replacing solvent molecule)
+Placed Cl- in x at (26.36, 1.06, -10.55).
+(Replacing solvent molecule)
+Placed Cl- in x at (-28.92, -19.18, 12.35).
+(Replacing solvent molecule)
+Placed Cl- in x at (34.53, -18.03, 35.74).
+(Replacing solvent molecule)
+Placed Cl- in x at (-13.55, -25.45, -14.83).
+(Replacing solvent molecule)
+Placed Cl- in x at (34.44, 18.23, 16.92).
+(Replacing solvent molecule)
+Placed Cl- in x at (1.97, -13.55, 42.49).
+(Replacing solvent molecule)
+Placed Cl- in x at (-20.39, 37.59, -14.99).
+(Replacing solvent molecule)
+Placed Cl- in x at (12.95, 11.45, -41.73).
+(Replacing solvent molecule)
+Placed Cl- in x at (-26.82, 1.55, -42.84).
+(Replacing solvent molecule)
+Placed Cl- in x at (-25.96, 11.70, 12.87).
+(Replacing solvent molecule)
+Placed Cl- in x at (11.83, -46.14, -0.76).
+(Replacing solvent molecule)
+Placed Cl- in x at (-40.04, 19.53, -10.42).
+(Replacing solvent molecule)
+Placed Cl- in x at (17.31, 43.12, 12.73).
+(Replacing solvent molecule)
+Placed Cl- in x at (22.96, -35.05, 15.54).
+(Replacing solvent molecule)
+Placed Cl- in x at (-14.70, -28.62, 33.88).
+(Replacing solvent molecule)
+Placed Cl- in x at (-47.25, -14.04, -15.65).
+(Replacing solvent molecule)
+Placed Cl- in x at (-8.88, -48.87, 7.32).
+(Replacing solvent molecule)
+Placed Cl- in x at (19.46, -1.76, 42.46).
+
+Done adding ions.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 1796 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L01	1
+	L02	1
+	WAT	18030
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 1; Notes = 0.
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1h1r-1_com.parm7 with coordinates from 1h1q~1h1r-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1h1r-2_com.parm7 with coordinates from 1h1q~1h1r-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1h1s-1_com.parm7 with coordinates from 1h1q~1h1s-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1h1s-2_com.parm7 with coordinates from 1h1q~1h1s-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oi9-1_com.parm7 with coordinates from 1h1q~1oi9-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oi9-2_com.parm7 with coordinates from 1h1q~1oi9-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oiu-1_com.parm7 with coordinates from 1h1q~1oiu-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oiu-2_com.parm7 with coordinates from 1h1q~1oiu-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oiy-1_com.parm7 with coordinates from 1h1q~1oiy-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~1oiy-2_com.parm7 with coordinates from 1h1q~1oiy-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~17-1_com.parm7 with coordinates from 1h1q~17-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~17-2_com.parm7 with coordinates from 1h1q~17-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~20-1_com.parm7 with coordinates from 1h1q~20-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~20-2_com.parm7 with coordinates from 1h1q~20-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~21-1_com.parm7 with coordinates from 1h1q~21-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~21-2_com.parm7 with coordinates from 1h1q~21-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~22-1_com.parm7 with coordinates from 1h1q~22-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~22-2_com.parm7 with coordinates from 1h1q~22-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~26-1_com.parm7 with coordinates from 1h1q~26-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~26-2_com.parm7 with coordinates from 1h1q~26-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~30-1_com.parm7 with coordinates from 1h1q~30-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~30-2_com.parm7 with coordinates from 1h1q~30-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~31-1_com.parm7 with coordinates from 1h1q~31-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1q~31-2_com.parm7 with coordinates from 1h1q~31-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~28-1_com.parm7 with coordinates from 1h1s~28-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~28-2_com.parm7 with coordinates from 1h1s~28-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~29-1_com.parm7 with coordinates from 1h1s~29-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~29-2_com.parm7 with coordinates from 1h1s~29-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~32-1_com.parm7 with coordinates from 1h1s~32-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1h1s~32-2_com.parm7 with coordinates from 1h1s~32-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1oi9~26-1_com.parm7 with coordinates from 1oi9~26-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1oi9~26-2_com.parm7 with coordinates from 1oi9~26-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 21~32-1_com.parm7 with coordinates from 21~32-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 21~32-2_com.parm7 with coordinates from 21~32-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1oi9~26-1_com.parm7 with coordinates from 1oi9~26-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file 1oi9~26-2_com.parm7 with coordinates from 1oi9~26-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___    ____      __    __  ____   ___    
+    |      \   |   |  |     `__'|  \  /  ||    | |   \    
+    |  .-.  | .'   `| | .-.  |-/|   \/   || ___| |  . \   
+    |  |_|  | |  i  | | |_| /"":|        || |    | | \ \  
+    |       / | .^. | |    /::::|        || |__. | |  \ \ 
+    |  ----'  | | | | |    \ :: |        ||  __| | |  |  )
+    |  |     .' ''' `.|  |\ \   |  i  i  j| |    . | /  /  
+    |  |     |   _   ||  | \ \  |  |\/|  || |__. | |.  / .
+   [|  |     |  | |  ||  |  \ \ |  |  |  ||    | |    /   ].
+  ] `--'     :--' `--::--'   \_|`--' ::--"|____|-"-- /    :[
+  |      __  ::-'''`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~17-1_aq.parm7 with coordinates from fix_box_1h1q~17-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~17-2_aq.parm7 with coordinates from fix_box_1h1q~17-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1r-1_aq.parm7 with coordinates from fix_box_1h1q~1h1r-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1r-2_aq.parm7 with coordinates from fix_box_1h1q~1h1r-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1s-1_aq.parm7 with coordinates from fix_box_1h1q~1h1s-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1s-2_aq.parm7 with coordinates from fix_box_1h1q~1h1s-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oi9-1_aq.parm7 with coordinates from fix_box_1h1q~1oi9-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oi9-2_aq.parm7 with coordinates from fix_box_1h1q~1oi9-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiu-1_aq.parm7 with coordinates from fix_box_1h1q~1oiu-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___    ____      __    __  ____   ___    
+    |      \   |   |  |     `__'|  \  /  ||    | |   \    
+    |  .-.  | .'   `| | .-.  |-/|   \/   || ___| |  . \   
+    |  |_|  | |  i  | | |_| /"":|        || |    | | \ \  
+    |       / | .^. | |    /::::|        || |__. | |  \ \ 
+    |  ----'  | | | | |    \ :: |        ||  __| | |  |  )
+    |  |     .' ''' `.|  |\ \   |  i  i  j| |    . | /  /  
+    |  |     |   _   ||  | \ \  |  |\/|  || |__. | |.  / .
+   [|  |     |  | |  ||  |  \ \ |  |  |  ||    | |    /   ].
+  ] `--'     :--' `--::--'   \_|`--' ::--"|____|-"-- /    :[
+  |      __  ::-'''`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiu-2_aq.parm7 with coordinates from fix_box_1h1q~1oiu-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiy-1_aq.parm7 with coordinates from fix_box_1h1q~1oiy-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiy-2_aq.parm7 with coordinates from fix_box_1h1q~1oiy-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~20-1_aq.parm7 with coordinates from fix_box_1h1q~20-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~20-2_aq.parm7 with coordinates from fix_box_1h1q~20-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~21-1_aq.parm7 with coordinates from fix_box_1h1q~21-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~21-2_aq.parm7 with coordinates from fix_box_1h1q~21-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~22-1_aq.parm7 with coordinates from fix_box_1h1q~22-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~22-2_aq.parm7 with coordinates from fix_box_1h1q~22-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~26-1_aq.parm7 with coordinates from fix_box_1h1q~26-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~26-2_aq.parm7 with coordinates from fix_box_1h1q~26-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~30-1_aq.parm7 with coordinates from fix_box_1h1q~30-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~30-2_aq.parm7 with coordinates from fix_box_1h1q~30-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~31-1_aq.parm7 with coordinates from fix_box_1h1q~31-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~31-2_aq.parm7 with coordinates from fix_box_1h1q~31-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~28-1_aq.parm7 with coordinates from fix_box_1h1s~28-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~28-2_aq.parm7 with coordinates from fix_box_1h1s~28-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~29-1_aq.parm7 with coordinates from fix_box_1h1s~29-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~29-2_aq.parm7 with coordinates from fix_box_1h1s~29-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~32-1_aq.parm7 with coordinates from fix_box_1h1s~32-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___    ____      __    __  ____   ___    
+    |      \   |   |  |     `__'|  \  /  ||    | |   \    
+    |  .-.  | .'   `| | .-.  |-/|   \/   || ___| |  . \   
+    |  |_|  | |  i  | | |_| /"":|        || |    | | \ \  
+    |       / | .^. | |    /::::|        || |__. | |  \ \ 
+    |  ----'  | | | | |    \ :: |        ||  __| | |  |  )
+    |  |     .' ''' `.|  |\ \   |  i  i  j| |    . | /  /  
+    |  |     |   _   ||  | \ \  |  |\/|  || |__. | |.  / .
+   [|  |     |  | |  ||  |  \ \ |  |  |  ||    | |    /   ].
+  ] `--'     :--' `--::--'   \_|`--' ::--"|____|-"-- /    :[
+  |      __  ::-'''`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~32-2_aq.parm7 with coordinates from fix_box_1h1s~32-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1oi9~26-1_aq.parm7 with coordinates from fix_box_1oi9~26-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1oi9~26-2_aq.parm7 with coordinates from fix_box_1oi9~26-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_21~32-1_aq.parm7 with coordinates from fix_box_21~32-1_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_21~32-2_aq.parm7 with coordinates from fix_box_21~32-2_aq.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~17-1_com.parm7 with coordinates from fix_box_1h1q~17-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~17-2_com.parm7 with coordinates from fix_box_1h1q~17-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1r-1_com.parm7 with coordinates from fix_box_1h1q~1h1r-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1r-2_com.parm7 with coordinates from fix_box_1h1q~1h1r-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1s-1_com.parm7 with coordinates from fix_box_1h1q~1h1s-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1h1s-2_com.parm7 with coordinates from fix_box_1h1q~1h1s-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oi9-1_com.parm7 with coordinates from fix_box_1h1q~1oi9-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oi9-2_com.parm7 with coordinates from fix_box_1h1q~1oi9-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiu-1_com.parm7 with coordinates from fix_box_1h1q~1oiu-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiu-2_com.parm7 with coordinates from fix_box_1h1q~1oiu-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiy-1_com.parm7 with coordinates from fix_box_1h1q~1oiy-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~1oiy-2_com.parm7 with coordinates from fix_box_1h1q~1oiy-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~20-1_com.parm7 with coordinates from fix_box_1h1q~20-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___    ____      __    __  ____   ___    
+    |      \   |   |  |     `__'|  \  /  ||    | |   \    
+    |  .-.  | .'   `| | .-.  |-/|   \/   || ___| |  . \   
+    |  |_|  | |  i  | | |_| /"":|        || |    | | \ \  
+    |       / | .^. | |    /::::|        || |__. | |  \ \ 
+    |  ----'  | | | | |    \ :: |        ||  __| | |  |  )
+    |  |     .' ''' `.|  |\ \   |  i  i  j| |    . | /  /  
+    |  |     |   _   ||  | \ \  |  |\/|  || |__. | |.  / .
+   [|  |     |  | |  ||  |  \ \ |  |  |  ||    | |    /   ].
+  ] `--'     :--' `--::--'   \_|`--' ::--"|____|-"-- /    :[
+  |      __  ::-'''`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~20-2_com.parm7 with coordinates from fix_box_1h1q~20-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~21-1_com.parm7 with coordinates from fix_box_1h1q~21-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~21-2_com.parm7 with coordinates from fix_box_1h1q~21-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  /^^^/           /]
+                                 /   ]           / ]
+                         _______/    ]___       /  ]
+                        /                \_____/   /
+                      _/   [@]  \ \                \
+                     /..         | |                ]
+                      VVVvvv\    | |         _/\    ]
+          P A R M E D       |               /    \  ]
+                     AAA^^^^^              /       \]
+                      \_________\   \_____/
+                                \    \
+                                 \____\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~22-1_com.parm7 with coordinates from fix_box_1h1q~22-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~22-2_com.parm7 with coordinates from fix_box_1h1q~22-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~26-1_com.parm7 with coordinates from fix_box_1h1q~26-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~26-2_com.parm7 with coordinates from fix_box_1h1q~26-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~30-1_com.parm7 with coordinates from fix_box_1h1q~30-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~30-2_com.parm7 with coordinates from fix_box_1h1q~30-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~31-1_com.parm7 with coordinates from fix_box_1h1q~31-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1q~31-2_com.parm7 with coordinates from fix_box_1h1q~31-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/ .~~~~~~~~~~~.
+ .      -.   . . . .: .:::.:.\.           .:/,: Prepare to  \
+.   .   .  :      : ....::_:..:\   ___.  :/ .       be       |
+   .   .  .   .:. .. .  .: :.:.:\       :/   \  P A R M E D |
+     +   .   .   : . ::. :.:. .:.|\  .:/|      \~~~~~~~~~~~'
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~28-1_com.parm7 with coordinates from fix_box_1h1s~28-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~28-2_com.parm7 with coordinates from fix_box_1h1s~28-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___    ____      __    __  ____   ___    
+    |      \   |   |  |     `__'|  \  /  ||    | |   \    
+    |  .-.  | .'   `| | .-.  |-/|   \/   || ___| |  . \   
+    |  |_|  | |  i  | | |_| /"":|        || |    | | \ \  
+    |       / | .^. | |    /::::|        || |__. | |  \ \ 
+    |  ----'  | | | | |    \ :: |        ||  __| | |  |  )
+    |  |     .' ''' `.|  |\ \   |  i  i  j| |    . | /  /  
+    |  |     |   _   ||  | \ \  |  |\/|  || |__. | |.  / .
+   [|  |     |  | |  ||  |  \ \ |  |  |  ||    | |    /   ].
+  ] `--'     :--' `--::--'   \_|`--' ::--"|____|-"-- /    :[
+  |      __  ::-'''`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~29-1_com.parm7 with coordinates from fix_box_1h1s~29-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~29-2_com.parm7 with coordinates from fix_box_1h1s~29-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~32-1_com.parm7 with coordinates from fix_box_1h1s~32-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                        Y O U      H A V E      B E E N
+                               _
+                            ==(W{==========-      /===-
+                              ||  (.--.)         /===-_---~~~~~~~~~------____
+                              | \_,|**|,__      |===-~___                _,-' `
+                 -==\\        `\ ' `--'   ),    `//~\\   ~~~~`---.___.-~~
+             ______-==|        /`\_. .__/\ \    | |  \\           _-~`
+       __--~~~  ,-/-==\\      (   | .  |~~~~|   | |   `\        ,'
+    _-~       /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /~\___/~~\/  /' /        \   /'
+ /  ____  /         |    \`\.__/-~~   \  |_/'  /          \/'
+/-'~    ~~~~~---__  |     ~-/~         ( )   /'        _--~`
+                  \_|      /        _) | ;  ),   __--~~
+                    '~~--_/      _-~/- |/ \   '-~ \             
+                   {\__--_/}    / \\_>-|)<__\      \
+                   /'   (_/  _-~  | |__>--<__|      | 
+                  |   _/) )-~     | |__>--<__|      |   
+                  / /~ ,_/       / /__>---<__/      |  
+                 o-o _//        /-~_>---<__-~      / 
+                 (^(~          /~_>---<__-      _-~              
+                ,/|           /__>--<__/     _-~                 
+             ,//('(          |__>--<__|     /                  .----_ 
+            ( ( '))          |__>--<__|    |                 /' _---_~\
+         `-)) )) (           |__>--<__|    |               /'  /     ~\`\
+        ,/,'//( (             \__>--<__\    \            /'  //        ||
+      ,( ( ((, ))              ~-__>--<_~-_  ~--____---~' _/'/        /'
+    `~/  )` ) ,/|                 ~-_~>--<_/-__       __-~ _/ 
+  ._-~//( )/ )) `                    ~~-'_/_/ /~~~~~~~__--~ 
+   ;'( ')/ ,)(                              ~~~~~~~~~~ 
+  ' ') '( (/
+    '   '  `             
+                                  P A R M E D
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1h1s~32-2_com.parm7 with coordinates from fix_box_1h1s~32-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1oi9~26-1_com.parm7 with coordinates from fix_box_1oi9~26-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+                                  _____
+                         __...---'-----`---...__
+                   _===============================
+   ______________,/'      `---..._______...---'
+  (______________). .    ,--'                            
+   /    /.---'       `. /                  
+  '--------_  - - - - _/         P A R M E D
+            `~~~~~~~~'
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_1oi9~26-2_com.parm7 with coordinates from fix_box_1oi9~26-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+ _~__________________
+ |_|_______________|_|
+ |  ,-------------.  |
+ | |  .---------.  | |
+ | |  |P        |  | |
+ | |  | a       |  | |
+ | |  |  r      |  | |
+ | |  |   m  ED |  | |
+ | |  `---------'  | |
+ | `---------------' |
+ |   _ ParmedBoy     |
+ | _| |_         ,-. |
+ ||_ O _|   ,-. "._,"|
+ |  |_|    "._,"   A |
+ |    _  _    B      |
+ |   // //           |
+ |  // //    \\\\\\  |
+ |  `  `      \\\\\\ ,
+ |________...______,"
+ 
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_21~32-1_com.parm7 with coordinates from fix_box_21~32-1_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file fix_box_21~32-2_com.parm7 with coordinates from fix_box_21~32-2_com.rst7
+
+['hmr.in']
+Reading actions from hmr.in
+
+Repartitioning hydrogen masses to 3.024 daltons. Not changing water hydrogen masses.
+Outputting Amber topology file hmr.parm7 and restart hmr.rst7
+Done!

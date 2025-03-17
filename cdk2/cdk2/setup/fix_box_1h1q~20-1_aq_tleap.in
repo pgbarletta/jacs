@@ -1,0 +1,14 @@
+source leaprc.protein.ff14SB
+source leaprc.phosaa14SB
+loadamberparams frcmod.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+loadamberparams 1h1q_0.frcmod
+loadoff 1h1q_0.lib
+loadamberparams 20_0.frcmod
+loadoff 20_0.lib
+x = loadPdb 1h1q~20-1_aq.pdb
+set x box {48.2180000 55.8490000 56.7230000}
+saveamberparm x fix_box_1h1q~20-1_aq.parm7 fix_box_1h1q~20-1_aq.rst7
+
+quit

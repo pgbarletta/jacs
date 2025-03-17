@@ -1,0 +1,5 @@
+     parm 21~32-2_aq.parm7
+     trajin 21~32-2_aq.rst7
+     trajout 21~32-2_aq.pdb pdb include_ep
+     go
+     quit
