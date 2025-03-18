@@ -1,0 +1,84 @@
+&cntrl
+imin            = 6
+nstlim          = 125
+numexchg        = 40000
+dt              = 0.004
+irest           = 1
+ntx             = 5
+ntxo            = 1
+ntc             = 2
+ntf             = 1
+ntwx            = 0
+ntwr            = 0
+ntpr            = 1
+cut             = 10
+iwrap           = 0
+
+ntb             = 2
+temp0           = 298.
+ntt             = 3
+gamma_ln        = 2.
+tautp           = 1
+ntp             = 1
+barostat        = 2
+pres0           = 1.01325
+taup            = 5.0
+
+ifsc            = 1
+icfe            = 1
+
+ifmbar          = 1
+bar_intervall   = 1
+mbar_states     = 24
+mbar_lambda(1)     = 0.00000000
+mbar_lambda(2)     = 0.17964896
+mbar_lambda(3)     = 0.23357541
+mbar_lambda(4)     = 0.27400537
+mbar_lambda(5)     = 0.30806539
+mbar_lambda(6)     = 0.33836806
+mbar_lambda(7)     = 0.36621555
+mbar_lambda(8)     = 0.39237392
+mbar_lambda(9)     = 0.41734721
+mbar_lambda(10)     = 0.44149723
+mbar_lambda(11)     = 0.46510424
+mbar_lambda(12)     = 0.48840164
+mbar_lambda(13)     = 0.51159836
+mbar_lambda(14)     = 0.53489576
+mbar_lambda(15)     = 0.55850277
+mbar_lambda(16)     = 0.58265279
+mbar_lambda(17)     = 0.60762608
+mbar_lambda(18)     = 0.63378445
+mbar_lambda(19)     = 0.66163194
+mbar_lambda(20)     = 0.69193461
+mbar_lambda(21)     = 0.72599463
+mbar_lambda(22)     = 0.76642459
+mbar_lambda(23)     = 0.82035104
+mbar_lambda(24)     = 1.00000000
+
+
+clambda         = 0.17964896
+
+timask1         = '@1-45'
+timask2         = '@46-94'
+crgmask         = ""
+scmask1         = '@39-41'
+scmask2         = '@84-85,90-94'
+scalpha         = 0.5
+scbeta          = 1.0
+
+gti_cut         = 1
+gti_output      = 1
+gti_add_sc      = 25
+gti_scale_beta  = 1
+gti_cut_sc_on   = 8
+gti_cut_sc_off  = 10
+gti_lam_sch     = 1
+gti_ele_sc      = 1
+gti_vdw_sc      = 1
+gti_cut_sc      = 2
+gti_ele_exp     = 2
+gti_vdw_exp     = 2
+/
+ &ewald
+ /
+
